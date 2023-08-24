@@ -540,6 +540,60 @@ main {
   padding-top: 70px;
   padding-left: 156px;
 }
+
+.form-content {
+  margin-left: 80px;
+}
+
+.footer-email-form {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: rgba(46, 47, 66, 1);
+  width: 264px;
+  height: 40px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.02em;
+}
+.footer-email-form::placeholder {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.02em;
+  text-indent: 16px;
+}
+
+.subscribe-form-btn {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  border: none;
+  width: 165px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  margin-left: 12px;
+}
+.form-btn-icon {
+  fill: #fff;
+}
 /* Modal-window */
 .modal-container {
   position: fixed;
