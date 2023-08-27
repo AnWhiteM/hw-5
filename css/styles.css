@@ -647,6 +647,9 @@ main {
 .checkbox-container {
   margin-bottom: 24px;
 }
+.input-container {
+  position: relative;
+}
 .form-input {
   width: 100%;
   height: 40px;
