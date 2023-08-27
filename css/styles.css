@@ -733,7 +733,7 @@ main {
   cursor: pointer;
 }
 
-.form-checkbox:checked + .cb-text-box {
+.form-checkbox:checked + .cb-text > .cb-text-box {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
